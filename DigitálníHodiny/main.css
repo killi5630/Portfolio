@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+
+#clock {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: cursive;
+    font-size: 100px;
+
+    color:greenyellow;
+    border: greenyellow 1px solid;
+    border-radius: 20px;
+    padding: 65px;
+    box-shadow: 3px 3px 15px greenyellow;
+    text-shadow: 5px 5px 5px greenyellow;
+    
+}
